@@ -1,0 +1,20 @@
+{
+  "name": "clone-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bash build.sh",
+    "compile:pug": "pug -w src/pug/pages/ -o dist -P",
+    "compile:sass": "sass src/sass/style.scss dist/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.69.5"
+  }
+}

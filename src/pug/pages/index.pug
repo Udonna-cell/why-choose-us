@@ -1,0 +1,41 @@
+extends ../layout.pug
+
+block content-title
+    title Home page
+
+block content
+    header 
+        h1 why choose us?
+        p
+            | Lorem ipsum dolor sit amet
+            | consectetur adipisicing elit.
+        section 
+            div 
+                figure 
+                    img(
+                        src="assets/image/ASUS.jpg"
+                        alt="label"
+                    )
+                section.map-on
+                    each val in ["01","02","03"]
+                        div= val
+
+            div 
+                article
+                    h1 Lorem, ipsum dolor.
+                    p 
+                        | Lorem ipsum, dolor sit amet
+                        | consectetur adipisicing
+                        | elit. Quo, illo.
+                article
+                    h1 Lorem, ipsum dolor.
+                    p 
+                        | Lorem ipsum, dolor sit amet
+                        | consectetur adipisicing
+                        | elit. Quo, illo.
+                article
+                    h1 Lorem, ipsum dolor.
+                    p 
+                        | Lorem ipsum, dolor sit amet
+                        | consectetur adipisicing
+                        | elit. Quo, illo.
